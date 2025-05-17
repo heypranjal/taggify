@@ -74,7 +74,7 @@ const Clients: React.FC = () => {
       results: [
         "85% reduction in policy violations",
         "Improved client satisfaction scores",
-        "Secured three new major US clients"
+        "Secured three new major Global clients"
       ]
     }
   ];
