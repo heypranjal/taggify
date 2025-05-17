@@ -43,7 +43,7 @@ const Resources: React.FC = () => {
     {
       title: "Preparing for US Client Audits: A Comprehensive Guide",
       date: "April 10, 2023",
-      excerpt: "US clients often conduct their own audits of outsourced operations. This guide helps you prepare effectively and navigate the audit process successfully.",
+      excerpt: "Global clients often conduct their own audits of outsourced operations. This guide helps you prepare effectively and navigate the audit process successfully.",
       link: "#",
       image: "https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     }
