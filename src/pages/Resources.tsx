@@ -179,7 +179,7 @@ const Resources: React.FC = () => {
                 The California Attorney General's office has released updated enforcement guidelines for the California Consumer Privacy Act (CCPA), providing clarification on several key compliance areas affecting businesses that process data of California residents.
               </p>
               <p className="text-gray-600 mb-4">
-                The updated guidelines place increased emphasis on data inventory requirements, consent management, and vendor oversight. Businesses serving US clients must ensure their data handling practices align with these updated requirements.
+                The updated guidelines place increased emphasis on data inventory requirements, consent management, and vendor oversight. Businesses serving Global clients must ensure their data handling practices align with these updated requirements.
               </p>
               <a 
                 href="#" 
