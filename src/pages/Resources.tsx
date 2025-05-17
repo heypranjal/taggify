@@ -52,7 +52,7 @@ const Resources: React.FC = () => {
   const faqs = [
     {
       question: "What compliance regulations apply to Indian BPOs serving US clients?",
-      answer: "Indian BPOs serving US clients must comply with various regulations depending on the industry and data handled. These may include GDPR (for international customers), CCPA, HIPAA (for healthcare data), PCI DSS (for payment information), and SOX (for financial data). Additionally, they must adhere to Indian regulations such as the Information Technology Act and any industry-specific requirements."
+      answer: "Indian BPOs serving Global clients must comply with various regulations depending on the industry and data handled. These may include GDPR (for international customers), CCPA, HIPAA (for healthcare data), PCI DSS (for payment information), and SOX (for financial data). Additionally, they must adhere to Indian regulations such as the Information Technology Act and any industry-specific requirements."
     },
     {
       question: "How often should we conduct internal audits?",
