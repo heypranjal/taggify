@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
                   <Link to="/services/kpo" className="block px-4 py-2 text-gray-800 hover:bg-blue-50">KPO Compliance</Link>
                   <Link to="/services/social-media" className="block px-4 py-2 text-gray-800 hover:bg-blue-50">Social Media Audits</Link>
                   <Link to="/services/data-security" className="block px-4 py-2 text-gray-800 hover:bg-blue-50">Data Security</Link>
-                  <Link to="/services/call-centre" className="block px-4 py-2 text-gray-800 hover:bg-blue-50">Call Centre Process </Link>
+                  {/* <Link to="/services/call-centre" className="block px-4 py-2 text-gray-800 hover:bg-blue-50">Call Centre Process </Link> */}
                 </div>
               )}
             </div>
@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
                     <Link to="/services/kpo" className="text-gray-700 hover:text-blue-700">KPO Compliance</Link>
                     <Link to="/services/social-media" className="text-gray-700 hover:text-blue-700">Social Media Audits</Link>
                     <Link to="/services/data-security" className="text-gray-700 hover:text-blue-700">Data Security</Link>
-                    <Link to="/services/call-centre" className="text-gray-700 hover:text-blue-700">Call Centre Process</Link>
+                    {/* <Link to="/services/call-centre" className="text-gray-700 hover:text-blue-700">Call Centre Process</Link> */}
                   </div>
                 )}
               </div>
