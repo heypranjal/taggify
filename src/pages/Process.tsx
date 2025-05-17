@@ -36,7 +36,7 @@ const Process: React.FC = () => {
     <div>
       <Hero 
         title="Our Audit Process"
-        subtitle="A structured, thorough approach to evaluating and improving your operations serving US clients."
+        subtitle="A structured, thorough approach to evaluating and improving your operations serving Global clients."
         backgroundImage="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
       
