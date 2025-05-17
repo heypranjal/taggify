@@ -29,7 +29,7 @@ const Resources: React.FC = () => {
     {
       title: "Understanding CCPA Requirements for Indian BPOs",
       date: "June 15, 2023",
-      excerpt: "The California Consumer Privacy Act (CCPA) has significant implications for Indian BPOs serving US clients. This article explains the key requirements and how to ensure compliance.",
+      excerpt: "The California Consumer Privacy Act (CCPA) has significant implications for Indian BPOs serving Global clients. This article explains the key requirements and how to ensure compliance.",
       link: "#",
       image: "https://images.pexels.com/photos/3760810/pexels-photo-3760810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
