@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building, Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
+import { Building, Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from './Link';
 
 const Footer: React.FC = () => {
@@ -16,17 +16,6 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 mb-4">
               Specialized audit services for BPO, KPO, and Social Media operations serving Global clients.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -49,7 +38,7 @@ const Footer: React.FC = () => {
               <li><Link to="/services/kpo" className="text-gray-400 hover:text-white transition-colors">KPO Compliance Verification</Link></li>
               <li><Link to="/services/social-media" className="text-gray-400 hover:text-white transition-colors">Social Media Operations Audit</Link></li>
               <li><Link to="/services/data-security" className="text-gray-400 hover:text-white transition-colors">Data Security Compliance</Link></li>
-               <li><Link to="/services/data-security" className="text-gray-400 hover:text-white transition-colors">Call Centre Process </Link></li>
+              <li><Link to="/services/data-security" className="text-gray-400 hover:text-white transition-colors">Call Centre Process </Link></li>
             </ul>
           </div>
 
