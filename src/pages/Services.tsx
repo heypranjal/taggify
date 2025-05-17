@@ -31,7 +31,7 @@ const Services: React.FC<ServicesProps> = ({ serviceSlug }) => {
         'Staff interviews and performance assessment',
         'Comprehensive report with actionable recommendations'
       ],
-        Matrix: [
+      matrix: [
         'Identify operational inefficiencies and quality gaps',
         'Ensure compliance with client requirements and SLAs',
         'Improve customer satisfaction metrics',
@@ -199,14 +199,14 @@ const Services: React.FC<ServicesProps> = ({ serviceSlug }) => {
                     ))}
                   </ul>
                 </div>
-              </div>
-   <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-4">Key Benefits</h3>
+                
+                <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Key Matrix</h3>
                   <ul className="space-y-2">
-                    {service.matrix.map((mat, index) => (
+                    {service.matrix?.map((mat, index) => (
                       <li key={index} className="flex items-start">
                         <div className="bg-blue-600 rounded-full p-1 mr-3 mt-1.5"></div>
-                        <span>{benefit}</span>
+                        <span>{mat}</span>
                       </li>
                     ))}
                   </ul>
