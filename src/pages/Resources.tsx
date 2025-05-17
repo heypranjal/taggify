@@ -63,7 +63,7 @@ const Resources: React.FC = () => {
       answer: "To prepare for a client audit, ensure all documentation is up to date, including process documentation, training records, security protocols, and compliance certifications. Conduct a pre-audit review to identify and address potential issues. Prepare your team by briefing them on the audit scope and ensuring key personnel are available. Finally, create a comfortable environment for the auditors and be transparent in all interactions."
     },
     {
-      question: "What are the key security requirements for handling US customer data?",
+      question: "What are the key security requirements for handling Global customer data?",
       answer: "Key security requirements include implementing strong access controls, data encryption (both in transit and at rest), secure authentication mechanisms, regular security assessments, comprehensive logging and monitoring, incident response procedures, and regular security training for staff. You should also maintain physical security measures for your facilities and ensure proper data backup and recovery procedures."
     },
     {
