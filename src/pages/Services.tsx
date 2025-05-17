@@ -36,9 +36,9 @@ const Services: React.FC<ServicesProps> = ({ serviceSlug }) => {
         'Customer Satisfaction (CSAT) Audit Matrix',
         'Process Compliance Matrix',
         'Operational Metrics Audit Matrix',
-        'Soft Skills & Behavioral Audit Matrix'
-        'Finance Audit Matrix'
-        'Headcount & Resource Verification Matrix'
+        'Soft Skills & Behavioral Audit Matrix',
+        'Finance Audit Matrix',
+        'Headcount & Resource Verification Matrix',
       ],
     },
     {
