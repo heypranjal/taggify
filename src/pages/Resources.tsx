@@ -8,13 +8,13 @@ const Resources: React.FC = () => {
     {
       icon: <FileText size={40} className="text-blue-600" />,
       title: "US-India BPO Compliance Guide",
-      description: "A comprehensive guide to understanding compliance requirements for Indian BPO operations serving US clients.",
+      description: "A comprehensive guide to understanding compliance requirements for Indian BPO operations serving Global clients.",
       downloadLink: "#"
     },
     {
       icon: <FileText size={40} className="text-blue-600" />,
       title: "Data Security Best Practices",
-      description: "Essential security practices for protecting sensitive data in outsourced operations serving US clients.",
+      description: "Essential security practices for protecting sensitive data in outsourced operations serving Global clients.",
       downloadLink: "#"
     },
     {
