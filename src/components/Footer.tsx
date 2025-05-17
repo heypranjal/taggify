@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                 <Facebook size={20} />
               </a>
             </div> */}
-          </div>
+          {/* </div> */}
 
           {/* Quick Links */}
           <div>
