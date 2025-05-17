@@ -30,7 +30,14 @@ const Services: React.FC<ServicesProps> = ({ serviceSlug }) => {
         'Compliance evaluation against industry standards',
         'Staff interviews and performance assessment',
         'Comprehensive report with actionable recommendations'
-      ]
+      ],
+        Matrix: [
+        'Identify operational inefficiencies and quality gaps',
+        'Ensure compliance with client requirements and SLAs',
+        'Improve customer satisfaction metrics',
+        'Optimize resource allocation and workforce management',
+        'Enhance data security and privacy controls'
+      ],
     },
     {
       id: 'kpo',
