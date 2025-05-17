@@ -200,6 +200,18 @@ const Services: React.FC<ServicesProps> = ({ serviceSlug }) => {
                   </ul>
                 </div>
               </div>
+   <div className="mb-8">
+                  <h3 className="text-xl font-semibold mb-4">Key Benefits</h3>
+                  <ul className="space-y-2">
+                    {service.matrix.map((mat, index) => (
+                      <li key={index} className="flex items-start">
+                        <div className="bg-blue-600 rounded-full p-1 mr-3 mt-1.5"></div>
+                        <span>{benefit}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
               
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
