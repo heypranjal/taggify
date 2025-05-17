@@ -56,7 +56,7 @@ const Resources: React.FC = () => {
     },
     {
       question: "How often should we conduct internal audits?",
-      answer: "For operations serving US clients, we recommend conducting comprehensive internal audits at least annually, with smaller check-in audits quarterly or semi-annually. This ensures ongoing compliance and allows for timely identification of emerging issues. High-risk operations or those handling sensitive data may require more frequent audits."
+      answer: "For operations serving Global clients, we recommend conducting comprehensive internal audits at least annually, with smaller check-in audits quarterly or semi-annually. This ensures ongoing compliance and allows for timely identification of emerging issues. High-risk operations or those handling sensitive data may require more frequent audits."
     },
     {
       question: "What should we do to prepare for a client audit?",
