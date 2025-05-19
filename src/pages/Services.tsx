@@ -227,28 +227,44 @@ const Services: React.FC<ServicesProps> = ({ serviceSlug }) => {
         </section>
         
         {/* Service Process Section */}
-        <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4">Our Approach</h2>
-              <p className="text-gray-600 max-w-3xl mx-auto">
-                We follow a structured methodology to ensure comprehensive and actionable audit results.
-              </p>
-            </div>
+   <section className="bg-gray-50 h-[95vh] my-4 lg:py-2 flex items-center">
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-6">
+      <h2 className="text-3xl font-bold mb-3">Our Approach</h2>
+      <p className="text-gray-600 text-base max-w-2xl mx-auto">
+        We follow a structured methodology to ensure comprehensive and actionable audit results.
+      </p>
+    </div>
+    
+    <div className="max-w-4xl mx-auto">
+      <div className="space-y-4">
+        {service.process.map((step, index) => (
+          <div key={index} className="relative">
+            {/* Connecting line - slightly thicker */}
+            {index < service.process.length - 1 && (
+              <div className="absolute left-8 top-14 bottom-0 w-1 bg-blue-400 hidden sm:block"></div>
+            )}
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {service.process.map((step, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-md p-8">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white font-bold text-lg mb-4">
-                    {index + 1}
-                  </div>
-                  <p className="text-gray-700">{step}</p>
-                </div>
-              ))}
+            <div className="flex flex-col sm:flex-row items-center items-start gap-4">
+              {/* Number bubble - medium size */}
+              <div className="flex-shrink-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-xl font-bold shadow-md z-10">
+                {index + 1}
+              </div>
+              
+              {/* Content box - more padding */}
+              <div className="flex-grow bg-white rounded-lg shadow p-4 border-l-4 border-blue-600 hover:shadow-lg transition-shadow duration-300">
+                <p className="text-gray-700 text-base">{step}</p>
+              </div>
             </div>
           </div>
-        </section>
-        
+        ))}
+      </div>
+    </div>
+    
+    {/* Call to action - medium size */}
+
+  </div>
+</section>
         {/* CTA Section */}
         <section className="py-20 bg-blue-700 text-white">
           <div className="container mx-auto px-4 text-center">
